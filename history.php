@@ -34,9 +34,9 @@
                 $div=$a/$b;
                 
                 if($row["type"]==1){
-                    echo $rows. ":  ".$a." + ".$b." = ".$sum." | ".$a." - ".$b." = ".$sub." | ".$a." * ".$b." = ".$add." | ".$a." : ".$b." = ".$div."<br>";
+                    echo $rows. "(advanced) :   ".$a." + ".$b." = ".$sum." | ".$a." - ".$b." = ".$sub." | ".$a." * ".$b." = ".$add." | ".$a." : ".$b." = ".$div."<br>";
                 }else{
-                    echo $rows. ":  ".$a." + ".$b." = ".$sum." | ".$a." - ".$b." = ".$sub."<br>";
+                    echo $rows. "(basic) :  ".$a." + ".$b." = ".$sum." | ".$a." - ".$b." = ".$sub."<br>";
                 }
                 
             }
