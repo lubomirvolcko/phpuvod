@@ -3,10 +3,10 @@
 <head>
     
 </head>
-<body>
+<body style="text-align: center;">
     <h1 style="color: #4863A0; font-family: Arial;"> <u><i><b>Malá násobilka</b></i></u> </h1>
     <?php 
-        echo "<table border=\"0px\" width=\"500\" style=\"text-align: center; font-family: Arial;\">";
+        echo "<table border=\"0px\" width=\"500\" style=\"text-align: center; font-family: Arial; margin: 0px auto;\">";
         echo "<tr><th style=\"background-color: #4863A0; color: white;\">#</th>";
     
         for($i=1;$i<11;$i++){
